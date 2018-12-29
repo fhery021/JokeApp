@@ -26,7 +26,7 @@ public class JokeServiceController {
         return "chucknorris";
     }
 
-    @GetMapping("/joke")
+    @GetMapping("/jokeApp/joke")
     @ResponseBody
     public Joke showJoke(){
         return jokeService.getRandomQuote();
